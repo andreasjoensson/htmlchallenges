@@ -1,0 +1,45 @@
+body{
+  background: antiquewhite;
+  font-family: 'Open Sans';
+}
+h1,h2,h3{
+  color: gray;
+}
+header{
+  font-size: 25px;
+  line-height: 1.5;
+}
+img{
+  width: 125px;
+}
+.links-some > li > a{
+text-decoration: none;
+color: gray;
+}
+.links-some{
+  list-style-type: none;
+  color:gray;
+}
+
+.link:hover, .link > a:hover{
+  color: blue;
+}
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+.card > table{
+margin: 0 auto;
+}
+.card{
+  text-align: center;
+  border-radius: 5px;
+  background: white;
+  padding: 20px;
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+margin-bottom: 50px;
+margin-top: 50px;
+  border: 1px solid gray;
+}

@@ -1,0 +1,27 @@
+body{
+  background: antiquewhite;
+  font-family: 'Open Sans';
+}
+h1,h2,h3{
+  color: gray;
+}
+header{
+  font-size: 25px;
+  line-height: 1.5;
+}
+img{
+  width: 125px;
+}
+.links-some > li > a{
+text-decoration: none;
+color: gray;
+}
+.links-some{
+  list-style-type: none;
+  color:gray;
+}
+
+.link:hover, .link > a:hover{
+  color: blue;
+
+}
